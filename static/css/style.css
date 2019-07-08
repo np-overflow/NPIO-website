@@ -2,15 +2,41 @@ body {
   background: #FEFAF8;
 }
 
-h1 {
+.nav-text-size {
+  font-size: 1.3em;
+}
+
+.title {
   font-family: 'Lato', sans-serif;
-  font-weight: 900;
+  font-size: 5em;
 }
 
-.row {
-  margin-top: 50px;
+.bottom-margins {
+  margin-bottom: 40px;
 }
 
-.bg-image {
-  position: absolute;
+.caption {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.bold-font {
+  font-weight: 700;
+}
+
+h5 {
+  margin: 0;
+}
+
+.btn-large, .btn {
+  border-radius: 50px;
+  text-transform: none;
+}
+
+.btn-large {
+  font-size: 1.35em;
+}
+
+.landing {
+  margin-top: 100px;
 }
