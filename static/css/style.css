@@ -1,0 +1,88 @@
+body {
+  background: #FAFAFA;
+  font-family: 'Lato', sans-serif;
+  color: #000f48;
+}
+
+p {
+  font-size: 1.25em;
+  color: rgba(0, 15, 72, .7);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.nav-text-size {
+  font-size: 1.3em;
+}
+
+.nav-wrapper {
+  padding: 0 15vw;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 8em;
+  text-align: center;
+}
+
+.bottom-margins {
+  margin-bottom: 40px;
+}
+
+.caption {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.bold-font {
+  font-weight: 700;
+}
+
+h5 {
+  margin: 0;
+}
+
+.btn-large, .btn {
+  text-transform: none;
+}
+
+.btn-large {
+  font-size: 1.35em;
+}
+
+.spaced {
+  margin-top: 5vh;
+}
+
+.heading {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heading:before,
+.heading:after {
+    content: '';
+    border-top: 9px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.heading:after {
+    margin: 0 0 0 20px;
+}
+
+.material-icons{
+    display: inline-flex;
+    vertical-align: top;
+}
