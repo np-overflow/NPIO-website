@@ -1,7 +1,12 @@
 body {
   background: #FAFAFA;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Amiko', sans-serif;
   color: #000f48;
+}
+
+.nav-text-size {
+  color: #000f48;
+  font-size: 1.3em;
 }
 
 p {
@@ -14,12 +19,13 @@ a {
   color: inherit;
 }
 
-a:visited {
-  text-decoration: none;
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.nav-text-size {
-  font-size: 1.3em;
+a:visited {
+  text-decoration: none;
 }
 
 .nav-wrapper {
@@ -38,7 +44,8 @@ a:visited {
 }
 
 .caption {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5em;
   margin: 0;
 }
 
@@ -58,31 +65,53 @@ h5 {
   font-size: 1.35em;
 }
 
+.btn-margin {
+  margin-bottom: 10vh;
+}
+
 .spaced {
   margin-top: 5vh;
 }
 
 .heading {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .heading:before,
 .heading:after {
-    content: '';
-    border-top: 9px solid;
-    margin: 0 20px 0 0;
-    flex: 1 0 20px;
+  content: '';
+  border-top: 9px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
 }
 
 .heading:after {
-    margin: 0 0 0 20px;
+  margin: 0 0 0 20px;
 }
 
 .material-icons{
-    display: inline-flex;
-    vertical-align: top;
+  vertical-align: top;
+}
+
+.section-header {
+  padding-bottom: 32px;
+}
+
+.workshop-content {
+  padding-left: 3vw;
+}
+
+.workshop-datetime {
+  color: #000f48;
+}
+
+.workshop-description {
+  margin-top: 0;
+  font-size: 1.1em;
 }
