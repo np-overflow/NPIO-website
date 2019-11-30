@@ -1,7 +1,7 @@
 body {
   background: #FAFAFA;
   font-family: 'Amiko', sans-serif;
-  color: #000f48;
+  color: #000000;
 }
 
 .nav-text-size {
@@ -11,7 +11,7 @@ body {
 
 p {
   font-size: 1.25em;
-  color: rgba(0, 15, 72, .7);
+  color: rgba(0, 0, 0, .7);
 }
 
 a {
@@ -33,7 +33,7 @@ a:visited {
 }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 700;
   font-size: 8em;
   text-align: center;
@@ -74,7 +74,7 @@ h5 {
 }
 
 .heading {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 700;
   display: flex;
   width: 100%;
@@ -108,7 +108,7 @@ h5 {
 }
 
 .workshop-datetime {
-  color: #000f48;
+  color: #131313;
 }
 
 .workshop-description {
@@ -127,13 +127,21 @@ footer p {
 }
 
 footer img {
-  max-height: 60px;
+  height: 60px;
   margin: 50px 30px;
+}
+
+#overflow-logo {
+  height: 70px;
 }
 
 @media only screen and (min-width: 993px) {
   footer img {
     height: 80px;
     margin: 70px 50px;
+  }
+
+  #overflow-logo {
+    height: 100px;
   }
 }
