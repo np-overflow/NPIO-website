@@ -115,3 +115,25 @@ h5 {
   margin-top: 0;
   font-size: 1.1em;
 }
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer img {
+  max-height: 60px;
+  margin: 50px 30px;
+}
+
+@media only screen and (min-width: 993px) {
+  footer img {
+    height: 80px;
+    margin: 70px 50px;
+  }
+}
