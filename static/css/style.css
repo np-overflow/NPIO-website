@@ -137,3 +137,11 @@ footer img {
     height: 100px;
   }
 }
+
+#info {
+  text-align: center;
+}
+.info-card {
+  text-align: left;
+}
+
