@@ -114,6 +114,15 @@ h5 {
   flex-wrap: wrap;
 }
 
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copyright p {
+  margin: 10px;
+}
+
 footer p {
   margin: 0;
 }
